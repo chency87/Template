@@ -9,7 +9,7 @@ from typing import Optional, List
 from pathlib import Path
 
 LOGGING_FILE_PREFIX = datetime.now().strftime('%Y-%m-%d_%H-%M') #_%H-%M-%S _%H_%M
-LOGGER_HANDLER_LOCK = threading.Lock()
+# LOGGER_HANDLER_LOCK = threading.Lock()
 
 GLOBAL_LOGGER_HANDLERS: List[logging.Handler] = []
 
