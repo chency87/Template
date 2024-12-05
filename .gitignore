@@ -162,7 +162,7 @@ cython_debug/
 #.idea/
 
 
-logs/**
-datasets/**
-results/**
+logs/*
+datasets/*
+results/*
 
