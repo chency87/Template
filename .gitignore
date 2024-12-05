@@ -166,3 +166,6 @@ logs/*
 datasets/*
 results/*
 
+!logs/
+!datasets/
+!results/
